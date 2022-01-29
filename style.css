@@ -9,13 +9,19 @@
 
 body{
     background: #0d1a2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 .card__nft{
     background: #15273f;
-    margin: 20px;
-    border-radius: 20px;
-    
+    margin: 90px;
+    border-radius: 20px; 
+    width: 350px; 
+    height: 590px;
+    box-shadow: 15px 15px 5px #0c1729, 30px 30px 5px #0c192c;
+     
 }
 
 .card__container{
@@ -24,8 +30,8 @@ body{
 }
 
 .imagem__principal {
-    width: 80%;
-    margin-top: 35px;
+    width: 280px;
+    margin-top: 25px;
     border-radius: 20px;
     
 }
@@ -70,7 +76,7 @@ body{
 }
 
 .quebraLinha__card {
-    width: 80%;
+    width: 280px;
     height: 0.2px;
     border:none;
     margin: 30px;
@@ -85,9 +91,9 @@ body{
 }
 
 .jules__card{
-    width: 15%;
+    width: 45px;
     border: 2px solid #fff;
-    border-radius: 100%;
+    border-radius: 100px;
     margin: 5px 0 20px 20px;
 }
 
